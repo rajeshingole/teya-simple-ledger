@@ -1,0 +1,39 @@
+###
+# Record a movement
+
+POST http://localhost:8080/api/movements
+Content-Type: application/json
+
+{
+  "type": "DEPOSIT",
+  "amount": 70.00,
+  "description": "cash deposit"
+}
+
+###
+
+###
+# Record a movement
+
+POST http://localhost:8080/api/movements
+Content-Type: application/json
+
+{
+  "type": "WITHDRAWAL",
+  "amount": 70.00,
+  "description": "cash deposit"
+}
+
+###
+
+
+# View current balance
+GET http://localhost:8080/api/balance
+
+###
+
+
+# View transaction histor
+GET http://localhost:8080/api/transactions
+
+###
