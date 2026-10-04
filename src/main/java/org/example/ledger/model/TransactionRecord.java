@@ -1,4 +1,4 @@
-package org.example.ledger;
+package org.example.ledger.model;
 
 import java.math.BigDecimal;
 import java.time.Instant;

@@ -1,4 +1,7 @@
-package org.example.ledger;
+package org.example.ledger.dto;
+
+import org.example.ledger.model.MovementType;
+import org.example.ledger.model.TransactionRecord;
 
 import java.math.BigDecimal;
 import java.time.Instant;

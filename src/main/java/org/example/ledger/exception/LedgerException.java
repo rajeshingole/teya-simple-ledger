@@ -1,4 +1,4 @@
-package org.example.ledger;
+package org.example.ledger.dto;
 
 public class LedgerException extends RuntimeException {
     public LedgerException(String message) {

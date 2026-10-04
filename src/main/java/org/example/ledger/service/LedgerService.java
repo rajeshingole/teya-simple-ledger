@@ -1,7 +1,11 @@
-package org.example.ledger;
+package org.example.ledger.service;
 
+import org.example.ledger.dto.LedgerException;
+import org.example.ledger.dto.MovementRequest;
+
+import org.example.ledger.model.TransactionRecord;
 import org.springframework.stereotype.Service;
-
+import org.example.ledger.model.MovementType;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.Instant;

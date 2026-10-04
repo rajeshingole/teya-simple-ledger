@@ -1,6 +1,10 @@
-package org.example.ledger;
+package org.example.ledger.controller;
 
 import jakarta.validation.Valid;
+import org.example.ledger.dto.BalanceResponse;
+import org.example.ledger.dto.MovementRequest;
+import org.example.ledger.dto.TransactionResponse;
+import org.example.ledger.service.LedgerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

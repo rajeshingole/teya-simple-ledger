@@ -1,4 +1,4 @@
-package org.example.ledger;
+package org.example.ledger.model;
 
 public enum MovementType {
     DEPOSIT,
